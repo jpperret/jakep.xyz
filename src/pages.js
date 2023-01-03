@@ -1,7 +1,7 @@
-import Home from "./pages/Home";
-import About from "./pages/About";
-import BracketBuilder from "./pages/BracketBuilder";
-import BracketBuilderPrivacy from "./pages/BracketBuilderPrivacy";
+import Home from "./pages/Home.js";
+import About from "./pages/About.js";
+import BracketBuilder from "./pages/BracketBuilder.js";
+import BracketBuilderPrivacy from "./pages/BracketBuilderPrivacy.js";
 
 // Used for navbar
 export const navbarPages = [
