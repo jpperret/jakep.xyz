@@ -1,8 +1,16 @@
+import { Heading, Text } from "@chakra-ui/react";
+import { Helmet } from "react-helmet";
+
 export default function NotFound() {
   return (
-    <div>
-      <h1>404: Not Found</h1>
-      <p>You just hit a route that doesn&#39;t exist.</p>
-    </div>
+    <>
+      <Helmet>
+        <title>Jake P | 404 Error</title>
+      </Helmet>
+      <Heading as="h1" size="xl">
+        404: Not Found
+      </Heading>
+      <Text>You hit a route that doesn&#39;t exist.</Text>
+    </>
   );
 }

@@ -1,14 +1,18 @@
-const About = () => {
-  return (
-    <div>
-      <h1>I'm Jake</h1>
-      <p>
-        I am a recent computer science graduate from the University of Maryland.
-        I've been writing Bracket Builder for a few months and decided it would
-        be a good idea to release a website with marketing materials with the launch of the app.
-      </p>
-    </div>
-  );
-};
+import { Heading, Text } from "@chakra-ui/react";
+import { Helmet } from "react-helmet";
 
-export default About;
+export default function About() {
+  return (
+    <>
+      <Helmet>
+        <title>Jake P | About</title>
+      </Helmet>
+      <Heading as="h1" size="xl">
+        Hi I'm Jake
+      </Heading>
+      <Text>
+        I am a recent computer science graduate from the University of Maryland.
+      </Text>
+    </>
+  );
+}
