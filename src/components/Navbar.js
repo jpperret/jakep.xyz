@@ -11,7 +11,7 @@ import {
   Stack,
 } from "@chakra-ui/react";
 import { HamburgerIcon, CloseIcon } from "@chakra-ui/icons";
-import { navbarPages } from "../pages.js";
+import { navbarPages } from "../PageList.js";
 
 const NavLink = ({ children }) => (
   <Link

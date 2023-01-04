@@ -6,7 +6,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { ChakraProvider, Container, extendTheme } from "@chakra-ui/react";
 
 import NotFound from "./pages/NotFound";
-import { allPages } from "./pages";
+import { allPages } from "./PageList";
 
 const theme = extendTheme({
   components: {
