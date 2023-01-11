@@ -7,6 +7,7 @@ export default function Home() {
       <Helmet>
         <title>Jake P</title>
       </Helmet>
+
       <Heading as="h1" size="xl">
         Jake Perret
       </Heading>
@@ -19,10 +20,10 @@ export default function Home() {
       <Heading as="h3" size="md">
         <Link href="/bracket-builder">Bracket Builder</Link>
       </Heading>
-      <Text>My first ios app</Text>
+      <Text>My first iOS app</Text>
       <Text>
-        Bracket Builder is an ios app to help users create and track
-        tournamenets
+        Bracket Builder is an iOS app to help users create and track
+        tournamenets.
       </Text>
 
       <Heading as="h3" size="md">
@@ -40,6 +41,14 @@ export default function Home() {
           GitHub Repo
         </Link>
         .
+      </Text>
+
+      <Heading as="h2" size="lg">
+        Contact
+      </Heading>
+      <Text>
+        To get in contact with me, feel free to reach out on instagram or linked
+        in PMs
       </Text>
     </>
   );

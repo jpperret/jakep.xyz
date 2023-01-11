@@ -12,7 +12,7 @@ export default function BracketBuilder() {
         Bracket Builder
       </Heading>
       <Text>
-        Bracket Builder is an ios app that allows users to create and track
+        Bracket Builder is an iOS app that allows users to create and track
         tournaments.
       </Text>
       <Heading as="h2" size="lg">
