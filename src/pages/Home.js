@@ -1,4 +1,4 @@
-import { Heading, Text, Link } from "@chakra-ui/react";
+import { Heading, Text, Link, Image, Center, HStack } from "@chakra-ui/react";
 import { Helmet } from "react-helmet";
 
 export default function Home() {
@@ -31,18 +31,27 @@ export default function Home() {
           Python Planner
         </Link>
       </Heading>
-      <Text>
-        When searching for a PDF weekly planner to use with my iPad I was unable
-        to find any I particuarly liked, so I decided to create my own. To make
-        it easily editble and able to be updated for future years I decided to
-        make it with Python. The code to generate it and resulting PDF can be
-        found in the{" "}
-        <Link href="https://github.com/jpperret/python-planner" isExternal>
-          GitHub Repo
-        </Link>
-        .
-      </Text>
-
+      <HStack>
+        <Text>
+          When searching for a PDF weekly planner to use with my iPad I was
+          unable to find any I particuarly liked, so I decided to create my own.
+          To make it easily editble and able to be updated for future years I
+          decided to make it with Python. The code to generate it and resulting
+          PDF can be found in the{" "}
+          <Link href="https://github.com/jpperret/python-planner" isExternal>
+            GitHub Repo
+          </Link>
+          .
+        </Text>
+        <Center>
+          <Image
+            border="1px"
+            borderColor="black"
+            src="python-planner.png"
+            alt="Python Planner"
+          />
+        </Center>
+      </HStack>
       <Heading as="h2" size="lg">
         Contact
       </Heading>
