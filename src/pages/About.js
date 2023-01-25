@@ -6,6 +6,7 @@ export default function About() {
     <>
       <Helmet>
         <title>Jake P | About</title>
+        <meta name="keywords" content="Jakep, Jake, Perret" />
       </Helmet>
       <Heading as="h1" size="xl">
         Hi I'm Jake

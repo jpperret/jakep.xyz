@@ -6,6 +6,7 @@ export default function NotFound() {
     <>
       <Helmet>
         <title>Jake P | 404 Error</title>
+        <meta name="description" content="Jake P page not found" />
       </Helmet>
       <Heading as="h1" size="xl">
         404: Not Found

@@ -6,6 +6,8 @@ export default function Home() {
     <>
       <Helmet>
         <title>Jake P</title>
+        <meta name="description" content="Jake Perret Personal Website" />
+        <meta name="keywords" content="Jake, Perret, jakep" />
       </Helmet>
 
       <Heading as="h1" size="xl">
@@ -20,6 +22,7 @@ export default function Home() {
       <Heading as="h3" size="md">
         <Link href="/bracket-builder">Bracket Builder</Link>
       </Heading>
+      <Text as="i">{"<Under Development>"}</Text>
       <Text>My first iOS app</Text>
       <Text>
         Bracket Builder is an iOS app to help users create and track
@@ -56,8 +59,15 @@ export default function Home() {
         Contact
       </Heading>
       <Text>
-        To get in contact with me, feel free to reach out on instagram or linked
-        in PMs
+        To get in contact with me, feel free to reach out on{" "}
+        <Link href="https://www.instagram.com/jake.perret/" isExternal>
+          Instagram
+        </Link>{" "}
+        or{" "}
+        <Link href="https://www.linkedin.com/in/jakeperret/" isExternal>
+          Linkedin
+        </Link>{" "}
+        PMs
       </Text>
     </>
   );

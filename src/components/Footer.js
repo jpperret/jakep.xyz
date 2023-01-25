@@ -11,13 +11,13 @@ const IconRow = () => {
           className: "footer-icons",
         }}
       >
-        <Link href="https://www.instagram.com/jake.perret/">
+        <Link href="https://www.instagram.com/jake.perret/" isExternal>
           <Icon as={BsInstagram} boxSize={10} />
         </Link>
-        <Link href="https://www.linkedin.com/in/jakeperret/">
+        <Link href="https://www.linkedin.com/in/jakeperret/" isExternal>
           <Icon as={BsLinkedin} boxSize={10} />
         </Link>
-        <Link href="https://github.com/jpperret">
+        <Link href="https://github.com/jpperret" isExternal>
           <Icon as={BsGithub} boxSize={10} />
         </Link>
       </IconContext.Provider>
