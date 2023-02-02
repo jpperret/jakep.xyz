@@ -2,7 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { ChakraProvider, Container, extendTheme } from "@chakra-ui/react";
 
 import NotFound from "./pages/NotFound";
@@ -31,7 +31,7 @@ const theme = extendTheme({
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <Router>
+    <BrowserRouter>
       <ChakraProvider theme={theme}>
         <Navbar />
         <Container maxW="2xl">
@@ -44,6 +44,6 @@ root.render(
         </Container>
         <Footer />
       </ChakraProvider>
-    </Router>
+    </BrowserRouter>
   </React.StrictMode>
 );

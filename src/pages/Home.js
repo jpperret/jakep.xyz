@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <>
       <Helmet>
-        <title>Jake P</title>
+        <title>Jake Perret</title>
         <meta name="description" content="Jake Perret Personal Website" />
         <meta name="keywords" content="Jake, Perret, jakep" />
       </Helmet>
