@@ -1,4 +1,13 @@
-import { Heading, Text, Link, Image, Center, HStack } from "@chakra-ui/react";
+import {
+  Heading,
+  Text,
+  Link,
+  Image,
+  Center,
+  HStack,
+  VStack,
+  Box,
+} from "@chakra-ui/react";
 import { Helmet } from "react-helmet";
 
 export default function Home() {
@@ -22,13 +31,23 @@ export default function Home() {
       <Heading as="h3" size="md">
         <Link href="/bracket-builder">Bracket Builder</Link>
       </Heading>
-      <Text as="i">{"<Under Development>"}</Text>
-      <Text>My first iOS app</Text>
-      <Text>
-        Bracket Builder is an iOS app to help users create and track
-        tournamenets.
-      </Text>
-
+      <HStack>
+        <VStack align="left">
+          <Text>My first iOS app</Text>
+          <Link href="https://apps.apple.com/app/id1669378849" isExternal>
+            <Image src="img/appstore.svg" />
+          </Link>
+          <Text>
+            Bracket Builder is an iOS app to help users create and track
+            tournamenets.
+          </Text>
+        </VStack>
+        <Center>
+          <Box boxSize="10rem">
+            <Image src="img/BracketBuilderIcon.png" border="1px" />
+          </Box>
+        </Center>
+      </HStack>
       <Heading as="h3" size="md">
         <Link href="https://github.com/jpperret/python-planner" isExternal>
           Python Planner
@@ -49,12 +68,12 @@ export default function Home() {
         <Center>
           <Image
             border="1px"
-            borderColor="black"
-            src="python-planner.png"
-            alt="Python Planner"
+            src="img/python-planner.png"
+            alt="PythonPlanner"
           />
         </Center>
       </HStack>
+
       <Heading as="h2" size="lg">
         Contact
       </Heading>

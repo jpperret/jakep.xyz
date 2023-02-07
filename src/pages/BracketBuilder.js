@@ -1,4 +1,4 @@
-import { Heading, Text, Link } from "@chakra-ui/react";
+import { Heading, Text, Link, Image, HStack, Spacer } from "@chakra-ui/react";
 import { Helmet } from "react-helmet";
 import { ListItem, UnorderedList } from "@chakra-ui/react";
 
@@ -11,10 +11,18 @@ export default function BracketBuilder() {
           name="description"
           content="Bracket Builer: Easily track and share tournament status"
         />
+        <link rel="icon" href="img/BracketBuilderIcon.png" />
+
         <meta name="keywords" content="Bracket, Builder, Jakep" />
       </Helmet>
       <Heading as="h1" size="xl">
-        Bracket Builder
+        <HStack>
+          <Text align="right">Bracket Builder</Text>
+          <Spacer />
+          <Link href="https://apps.apple.com/app/id1669378849" isExternal>
+            <Image src="img/appstore.svg" />
+          </Link>
+        </HStack>
       </Heading>
       <Text>
         Bracket Builder is an iOS app that allows users to create and track

@@ -6,6 +6,7 @@ export default function BracketBuilderPrivacy() {
     <>
       <Helmet>
         <title>Bracket Builder Privacy</title>
+        <link rel="icon" href="img/BracketBuilderIcon.png" />
       </Helmet>
       <Heading as="h1" size="xl">
         Bracket Builder Pivacy Policy
