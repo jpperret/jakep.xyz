@@ -36,7 +36,8 @@ export default function BracketBuilder() {
       <Text>All features are free to use</Text>
       <UnorderedList>
         <ListItem>
-          Supports creating brackets of sizes ranging from 2 teams to 16 teams
+          Supports creating brackets of sizes ranging from 2 to 32 teams for
+          double elimination and up to 64 for single elimination
         </ListItem>
         <ListItem>Single and double elimination brackets</ListItem>
         <ListItem>Automatic ordering of teams based on seed</ListItem>

@@ -38,7 +38,7 @@ export default function Home() {
             <Image src="img/appstore.svg" />
           </Link>
           <Text>
-            Bracket Builder is an iOS app to help users create and track
+            Bracket Builder is an iOS app to help users create and share
             tournamenets.
           </Text>
         </VStack>
