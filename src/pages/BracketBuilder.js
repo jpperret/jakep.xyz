@@ -9,7 +9,7 @@ export default function BracketBuilder() {
         <title>Bracket Builder</title>
         <meta
           name="description"
-          content="Bracket Builer: Easily track and share tournament status"
+          content="Bracket Builder: Easily track and share tournament status"
         />
         <link rel="icon" href="img/BracketBuilderIcon.png" />
 

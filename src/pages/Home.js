@@ -39,7 +39,7 @@ export default function Home() {
           </Link>
           <Text>
             Bracket Builder is an iOS app to help users create and share
-            tournamenets.
+            tournaments.
           </Text>
         </VStack>
         <Center>
@@ -56,8 +56,8 @@ export default function Home() {
       <HStack>
         <Text>
           When searching for a PDF weekly planner to use with my iPad I was
-          unable to find any I particuarly liked, so I decided to create my own.
-          To make it easily editble and able to be updated for future years I
+          unable to find any I particularly liked, so I decided to create my own.
+          To make it easily editable and able to be updated for future years I
           decided to make it with Python. The code to generate it and resulting
           PDF can be found in the{" "}
           <Link href="https://github.com/jpperret/python-planner" isExternal>
