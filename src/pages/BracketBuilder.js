@@ -41,6 +41,7 @@ export default function BracketBuilder() {
         </ListItem>
         <ListItem>Single and double elimination brackets</ListItem>
         <ListItem>Automatic ordering of teams based on seed</ListItem>
+        <ListItem>Automatic insertion of "BYE" matches</ListItem>
         <ListItem>Optionally randomize team seeds</ListItem>
         <ListItem>Keeps track of winners and losers</ListItem>
         <ListItem>Easily remove winners</ListItem>
