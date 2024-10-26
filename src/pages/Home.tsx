@@ -18,8 +18,8 @@ const Home: React.FC = () => {
       <h3>
         <a href="/bracket-builder">Bracket Builder</a>
       </h3>
-      <div className="flex">
-        <div className="flex flex-col h-36 justify-between">
+      <div className="flex space-x-2">
+        <div className="flex flex-col justify-between">
           <p>My first iOS app</p>
           <a href="https://apps.apple.com/app/id1669378849">
             <img src="img/AppStore.svg" alt="Download in App Store" />
@@ -39,7 +39,7 @@ const Home: React.FC = () => {
       <h3>
         <a href="https://github.com/jpperret/python-planner">Python Planner</a>
       </h3>
-      <div className="grid grid-cols-2 space-x-2 items-center">
+      <div className="grid grid-cols-2 gap-x-2 items-center">
         <p>
           When searching for a PDF weekly planner to use with my iPad I was
           unable to find any I particularly liked, so I decided to create my
