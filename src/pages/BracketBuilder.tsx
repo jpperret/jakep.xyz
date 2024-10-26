@@ -1,8 +1,9 @@
 import { Heading, Text, Link, Image, HStack, Spacer } from "@chakra-ui/react";
 import { Helmet } from "react-helmet";
 import { ListItem, UnorderedList } from "@chakra-ui/react";
+import React from "react";
 
-export default function BracketBuilder() {
+const BracketBuilder: React.FC = () => {
   return (
     <>
       <Helmet>
@@ -72,4 +73,6 @@ export default function BracketBuilder() {
       </Text>
     </>
   );
-}
+};
+
+export default BracketBuilder;

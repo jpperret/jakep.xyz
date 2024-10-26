@@ -1,7 +1,8 @@
 import { Heading, Text } from "@chakra-ui/react";
 import { Helmet } from "react-helmet";
+import React from "react";
 
-export default function About() {
+const About: React.FC = () => {
   return (
     <>
       <Helmet>
@@ -16,4 +17,6 @@ export default function About() {
       </Text>
     </>
   );
-}
+};
+
+export default About;

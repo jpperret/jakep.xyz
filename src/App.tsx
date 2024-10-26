@@ -1,5 +1,4 @@
 import React from "react";
-import ReactDOM from "react-dom/client";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
@@ -28,16 +27,15 @@ const theme = extendTheme({
   },
 });
 
-const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(
-  <React.StrictMode>
+const App: React.FC = () => {
+  return (
     <BrowserRouter>
       <ChakraProvider theme={theme}>
         <Navbar />
         <Container maxW="2xl">
           <Routes>
             {allPages.map((page, i) => (
-              <Route key={i} path={page.path} element={page.element} />
+              <Route key={i} path={page.path} element={<page.element />} />
             ))}
             <Route path="*" element={<NotFound />} />
           </Routes>
@@ -45,5 +43,7 @@ root.render(
         <Footer />
       </ChakraProvider>
     </BrowserRouter>
-  </React.StrictMode>
-);
+  );
+};
+
+export default App;

@@ -25,7 +25,7 @@ const IconRow = () => {
   );
 };
 
-export default function Footer() {
+const Footer: React.FC = () => {
   return (
     <Center>
       <VStack width="100vw">
@@ -36,4 +36,6 @@ export default function Footer() {
       </VStack>
     </Center>
   );
-}
+};
+
+export default Footer;

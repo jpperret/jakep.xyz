@@ -8,9 +8,10 @@ import {
   VStack,
   Box,
 } from "@chakra-ui/react";
+import React from "react";
 import { Helmet } from "react-helmet";
 
-export default function Home() {
+const Home: React.FC = () => {
   return (
     <>
       <Helmet>
@@ -56,10 +57,10 @@ export default function Home() {
       <HStack>
         <Text>
           When searching for a PDF weekly planner to use with my iPad I was
-          unable to find any I particularly liked, so I decided to create my own.
-          To make it easily editable and able to be updated for future years I
-          decided to make it with Python. The code to generate it and resulting
-          PDF can be found in the{" "}
+          unable to find any I particularly liked, so I decided to create my
+          own. To make it easily editable and able to be updated for future
+          years I decided to make it with Python. The code to generate it and
+          resulting PDF can be found in the{" "}
           <Link href="https://github.com/jpperret/python-planner" isExternal>
             GitHub Repo
           </Link>
@@ -90,4 +91,6 @@ export default function Home() {
       </Text>
     </>
   );
-}
+};
+
+export default Home;

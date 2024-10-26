@@ -1,7 +1,8 @@
 import { Heading, Text } from "@chakra-ui/react";
+import React from "react";
 import { Helmet } from "react-helmet";
 
-export default function NotFound() {
+const NotFound: React.FC = () => {
   return (
     <>
       <Helmet>
@@ -14,4 +15,6 @@ export default function NotFound() {
       <Text>You hit a route that doesn&#39;t exist.</Text>
     </>
   );
-}
+};
+
+export default NotFound;

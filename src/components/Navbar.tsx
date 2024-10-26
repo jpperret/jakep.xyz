@@ -11,9 +11,9 @@ import {
   Stack,
 } from "@chakra-ui/react";
 import { HamburgerIcon, CloseIcon } from "@chakra-ui/icons";
-import { navbarPages } from "../PageList.js";
+import { navbarPages, navDataType } from "../PageList";
 
-const NavLink = ({ children }) => (
+const NavLink = ({ children }: { children: navDataType }) => (
   <Link
     px={2}
     py={1}
@@ -28,7 +28,7 @@ const NavLink = ({ children }) => (
   </Link>
 );
 
-export default function Navbar() {
+const Navbar: React.FC = () => {
   const { isOpen, onOpen, onClose } = useDisclosure();
 
   return (
@@ -67,4 +67,6 @@ export default function Navbar() {
       </Box>
     </>
   );
-}
+};
+
+export default Navbar;

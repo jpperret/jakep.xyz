@@ -1,7 +1,8 @@
 import { Heading, Text, Link } from "@chakra-ui/react";
 import { Helmet } from "react-helmet";
+import React from "react";
 
-export default function BracketBuilderPrivacy() {
+const BracketBuilderPrivacy: React.FC = () => {
   return (
     <>
       <Helmet>
@@ -17,4 +18,6 @@ export default function BracketBuilderPrivacy() {
       </Text>
     </>
   );
-}
+};
+
+export default BracketBuilderPrivacy;
