@@ -10,8 +10,7 @@ const BracketBuilder: React.FC = () => {
           name="description"
           content="Bracket Builder: Easily track and share tournament status"
         />
-        <link rel="icon" href="img/BracketBuilderIcon.png" />
-
+        <link rel="icon" href="/img/BracketBuilderIcon.png" />
         <meta name="keywords" content="Bracket, Builder, Jakep" />
       </Helmet>
       <div className="flex items-center justify-between">

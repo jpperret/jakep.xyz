@@ -6,7 +6,7 @@ const BracketBuilderPrivacy: React.FC = () => {
     <>
       <Helmet>
         <title>Bracket Builder Privacy</title>
-        <link rel="icon" href="img/BracketBuilderIcon.png" />
+        <link rel="icon" href="/img/BracketBuilderIcon.png" />
       </Helmet>
       <h1>Bracket Builder Privacy Policy</h1>
       <p>
