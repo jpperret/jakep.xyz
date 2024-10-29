@@ -1,0 +1,18 @@
+# Exported from Render on 2024-10-29T02:16:30Z
+services:
+- type: web
+  name: jakep.xyz
+  runtime: static
+  repo: https://github.com/jpperret/jakep.xyz
+  buildCommand: yarn build
+  staticPublishPath: build
+  domains:
+  - www.jakep.xyz
+  - jakep.xyz
+  routes:
+  - type: rewrite
+    source: /*
+    destination: /index.html
+  previews:
+    generation: automatic
+version: "1"
