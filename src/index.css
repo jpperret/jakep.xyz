@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+h1 {
+  @apply text-4xl;
+  @apply font-bold;
+  @apply mb-1;
+}
+
+h2 {
+  @apply text-3xl;
+  @apply font-semibold;
+  @apply my-1;
+}
+
+h3 {
+  @apply text-2xl;
+  @apply font-semibold;
+  @apply my-1;
+}
+
+p,
+ul {
+  @apply my-1;
+  @apply font-light;
+}
+
+a:hover {
+  @apply underline;
+}

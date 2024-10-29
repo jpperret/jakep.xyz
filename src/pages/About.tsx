@@ -1,19 +1,19 @@
-import { Heading, Text } from "@chakra-ui/react";
 import { Helmet } from "react-helmet";
+import React from "react";
 
-export default function About() {
+const About: React.FC = () => {
   return (
     <>
       <Helmet>
         <title>Jake P | About</title>
         <meta name="keywords" content="Jakep, Jake, Perret" />
       </Helmet>
-      <Heading as="h1" size="xl">
-        Hi I'm Jake
-      </Heading>
-      <Text>
+      <h1>Hi I'm Jake</h1>
+      <p>
         I am a recent computer science graduate from the University of Maryland.
-      </Text>
+      </p>
     </>
   );
-}
+};
+
+export default About;
