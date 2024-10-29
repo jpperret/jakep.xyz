@@ -38,8 +38,8 @@ const Footer: React.FC = () => {
       <div className="mx-auto w-fit text-center pt-2">
         <div className="flex flex-col">
           <IconRow />
-          <p>&#169;{new Date().getFullYear()} Jake Perret</p>
-          <p>My name is also John</p>
+          <p className="m-1">&#169;{new Date().getFullYear()} Jake Perret</p>
+          <p className="m-1">My name is also John</p>
         </div>
       </div>
     </>

@@ -41,7 +41,6 @@ const BracketBuilder: React.FC = () => {
         <li>Light and dark mode support</li>
         <li>Share brackets as an image with participants or friends</li>
       </ul>
-      <br /> {/* TODO: Should be just bottom padding */}
       <p>
         Organize and track tournaments for pool, tennis, baseball, basketball,
         pong, die and anything else you can think of!
