@@ -30,7 +30,7 @@ const BracketBuilder: React.FC = () => {
       <p>Requires iOS 16.0 or newer</p>
       <h2>Features</h2>
       <p>All features are free to use</p>
-      <ul className="list-disc ml-4">
+      <ul className="ml-4 list-disc">
         <li>
           Supports creating brackets of sizes ranging from 2 to 32 teams for
           double elimination and up to 64 for single elimination

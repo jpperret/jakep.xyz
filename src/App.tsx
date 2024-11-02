@@ -10,7 +10,7 @@ const App: React.FC = () => {
   return (
     <BrowserRouter>
       <Navbar />
-      <div className="max-w-2xl m-auto p-3 pt-16">
+      <div className="m-auto max-w-2xl p-3 pt-16">
         <Routes>
           {allPages.map((page, i) => (
             <Route key={i} path={page.path} element={<page.element />} />

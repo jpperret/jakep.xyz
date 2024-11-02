@@ -40,7 +40,7 @@ const Footer: React.FC = () => {
   return (
     <>
       <hr></hr>
-      <div className="mx-auto w-fit text-center pt-2">
+      <div className="mx-auto w-fit pt-2 text-center">
         <div className="flex flex-col">
           <IconRow />
           <p className="m-1">&#169;{new Date().getFullYear()} Jake Perret</p>

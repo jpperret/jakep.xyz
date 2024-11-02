@@ -41,7 +41,7 @@ const Home: React.FC = () => {
       <h3>
         <a href="https://github.com/jpperret/python-planner">Python Planner</a>
       </h3>
-      <div className="grid grid-cols-2 gap-x-2 items-center">
+      <div className="grid grid-cols-2 items-center gap-x-2">
         <p>
           When searching for a PDF weekly planner to use with my iPad I was
           unable to find any I particularly liked, so I decided to create my
