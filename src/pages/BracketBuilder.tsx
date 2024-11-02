@@ -1,18 +1,21 @@
-import { Helmet } from "react-helmet";
 import React from "react";
+import { Helmet, HelmetProvider } from "react-helmet-async";
 
 const BracketBuilder: React.FC = () => {
   return (
     <>
-      <Helmet>
-        <title>Bracket Builder</title>
-        <meta
-          name="description"
-          content="Bracket Builder: Easily track and share tournament status"
-        />
-        <link rel="icon" href="/img/BracketBuilderIcon.png" />
-        <meta name="keywords" content="Bracket, Builder, Jakep" />
-      </Helmet>
+      <HelmetProvider>
+        <Helmet>
+          <title>Bracket Builder</title>
+          <meta
+            name="description"
+            content="Bracket Builder: Easily track and share tournament status"
+          />
+          <link rel="icon" href="/img/BracketBuilderIcon.png" />
+          <meta name="keywords" content="Bracket, Builder, Jakep" />
+        </Helmet>
+      </HelmetProvider>
+
       <div className="flex items-center justify-between">
         <h1>Bracket Builder</h1>
         <a href="https://apps.apple.com/app/id1669378849">

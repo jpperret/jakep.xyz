@@ -1,14 +1,16 @@
 import React from "react";
-import { Helmet } from "react-helmet";
+import { Helmet, HelmetProvider } from "react-helmet-async";
 
 const Home: React.FC = () => {
   return (
     <>
-      <Helmet>
-        <title>Jake Perret</title>
-        <meta name="description" content="Jake Perret Personal Website" />
-        <meta name="keywords" content="Jake, Perret, jakep" />
-      </Helmet>
+      <HelmetProvider>
+        <Helmet>
+          <title>Jake Perret</title>
+          <meta name="description" content="Jake Perret Personal Website" />
+          <meta name="keywords" content="Jake, Perret, jakep" />
+        </Helmet>
+      </HelmetProvider>
 
       <h1>Jake Perret</h1>
       <p>Welcome to my website</p>

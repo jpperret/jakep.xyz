@@ -1,13 +1,16 @@
-import { Helmet } from "react-helmet";
 import React from "react";
+import { Helmet, HelmetProvider } from "react-helmet-async";
 
 const BracketBuilderPrivacy: React.FC = () => {
   return (
     <>
-      <Helmet>
-        <title>Bracket Builder Privacy</title>
-        <link rel="icon" href="/img/BracketBuilderIcon.png" />
-      </Helmet>
+      <HelmetProvider>
+        <Helmet>
+          <title>Bracket Builder Privacy</title>
+          <link rel="icon" href="/img/BracketBuilderIcon.png" />
+        </Helmet>
+      </HelmetProvider>
+
       <h1>Bracket Builder Privacy Policy</h1>
       <p>
         <a href="/bracket-builder">Bracket Builder</a> does not collect, store,
