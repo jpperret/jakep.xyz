@@ -23,7 +23,12 @@ const IconRow = () => {
   return (
     <div className="flex justify-between">
       {socialIcons.map((social) => (
-        <a href={social.link} target="_blank" rel="noreferrer">
+        <a
+          href={social.link}
+          target="_blank"
+          rel="noreferrer"
+          key={social.link}
+        >
           <social.icon size={50} />
         </a>
       ))}
