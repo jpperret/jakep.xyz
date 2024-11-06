@@ -39,7 +39,7 @@ const IconRow = () => {
 const Footer: React.FC = () => {
   return (
     <>
-      <hr></hr>
+      <hr />
       <div className="mx-auto w-fit pt-2 text-center">
         <div className="flex flex-col">
           <IconRow />

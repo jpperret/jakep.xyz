@@ -2,30 +2,39 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+  @apply bg-white text-black dark:bg-neutral-900 dark:text-neutral-50;
+}
+
+nav {
+  @apply bg-slate-200 text-black dark:bg-slate-400;
+}
+
+nav button a {
+  @apply hover:bg-slate-300 dark:hover:bg-slate-500/50;
+}
+
 h1 {
-  @apply text-4xl;
-  @apply font-bold;
-  @apply mb-1;
+  @apply mb-1 text-4xl font-bold;
 }
 
 h2 {
-  @apply text-3xl;
-  @apply font-semibold;
-  @apply my-1;
+  @apply my-1 text-3xl font-semibold;
 }
 
 h3 {
-  @apply text-2xl;
-  @apply font-semibold;
-  @apply my-1;
+  @apply my-1 text-2xl font-semibold;
 }
 
 p,
 ul {
-  @apply my-1;
-  @apply font-light;
+  @apply my-1 font-light;
 }
 
 a:hover {
   @apply underline;
+}
+
+hr {
+  @apply dark:border-neutral-500;
 }
