@@ -3,9 +3,10 @@ import {
   AiFillLinkedin as LinkedinIcon,
   AiOutlineInstagram as InstagramIcon,
 } from "react-icons/ai";
+import { IconType } from "react-icons";
 
 const IconRow = () => {
-  const socialIcons = [
+  const socialIcons: { link: string; icon: IconType }[] = [
     {
       link: "https://www.instagram.com/jake.perret/",
       icon: InstagramIcon,

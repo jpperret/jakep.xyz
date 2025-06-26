@@ -21,18 +21,16 @@ const Navbar: React.FC = () => {
     <nav className="absolute flex w-full flex-col justify-center px-4">
       <div className="align-center hidden h-16 space-x-4 md:flex">
         {navbarPages.map((link, i) => (
-          <NavLink key={i}>{link}</NavLink>
+          <NavLink key={link.path}>{link}</NavLink>
         ))}
       </div>
 
-      <>
-        <button
-          className="flex h-16 flex-col justify-center pl-2 md:hidden"
-          onClick={() => setNavOpen(!navOpen)}
-        >
-          {navOpen ? <CloseIcon /> : <MenuIcon />}
-        </button>
-      </>
+      <button
+        className="flex h-16 flex-col justify-center pl-2 md:hidden"
+        onClick={() => setNavOpen(!navOpen)}
+      >
+        {navOpen ? <CloseIcon /> : <MenuIcon />}
+      </button>
 
       <div
         className={twMerge(
@@ -41,7 +39,7 @@ const Navbar: React.FC = () => {
         )}
       >
         {navbarPages.map((link, i) => (
-          <NavLink key={i}>{link}</NavLink>
+          <NavLink key={link.path}>{link}</NavLink>
         ))}
       </div>
     </nav>
