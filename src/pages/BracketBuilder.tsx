@@ -23,30 +23,37 @@ const BracketBuilder: React.FC = () => {
         </a>
       </div>
       <p>
-        Bracket Builder is an iOS app that allows users to create and track
-        custom tournaments
+        Bracket Builder is an iOS app that allows users to easily track and
+        share custom tournaments
       </p>
-      <p>Easily track and share tournament status</p>
-      <p>Requires iOS 16.0 or newer</p>
       <h2>Features</h2>
-      <p>All features are free to use</p>
+      <p>All features are completely free</p>
       <ul className="ml-4 list-disc">
         <li>
-          Supports creating brackets of sizes ranging from 2 to 32 teams for
-          double elimination and up to 64 for single elimination
+          Create Single-elimination, double-elimination and round-robin brackets
         </li>
-        <li>Single and double elimination brackets</li>
+        <li>
+          Supports up to 128 teams for single-elimination, 32 for
+          double-elimination and 26 for round-robin
+        </li>
+        <li>
+          Generate random double round-robin tournaments with new teammates each
+          round
+        </li>
+        <li>
+          Share tournament brackets as images with participants and friends
+        </li>
         <li>Automatic ordering of teams based on seed</li>
-        <li>Automatic insertion of "BYE" matches</li>
-        <li>Optionally randomize team seeds</li>
-        <li>Keeps track of winners and losers</li>
+        <li>Automatic "BYE" match insertion</li>
+        <li>Track tournament progress directly in the app</li>
         <li>Easily remove winners</li>
+        <li>Effortlessly remove winners as matches progress</li>
         <li>Light and dark mode support</li>
-        <li>Share brackets as an image with participants or friends</li>
       </ul>
       <p>
-        Organize and track tournaments for pool, tennis, baseball, basketball,
-        pong, die and anything else you can think of!
+        Perfect for organizing and tracking tournaments in pool, tennis,
+        baseball, basketball, eSports, pong, die and virtually any other game
+        you can imagine!
       </p>
       <h2>Feedback</h2>
       <p>
