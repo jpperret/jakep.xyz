@@ -16,28 +16,6 @@ const Home: React.FC = () => {
       <p>Welcome to my website</p>
 
       <h2>Recent Projects</h2>
-
-      <h3>
-        <a href="/bracket-builder">Bracket Builder</a>
-      </h3>
-      <div className="flex space-x-2">
-        <div className="flex flex-col justify-between">
-          <p>My first iOS app</p>
-          <a href="https://apps.apple.com/app/id1669378849">
-            <img src="img/AppStore.svg" alt="Download in App Store" />
-          </a>
-          <p>
-            Bracket Builder is an iOS app to help users create and share
-            tournaments.
-          </p>
-        </div>
-
-        <img
-          className="h-36 w-auto outline"
-          src="img/BracketBuilderIcon.png"
-          alt="Bracket Builder Icon"
-        />
-      </div>
       <h3>
         <a href="https://github.com/jpperret/python-planner">Python Planner</a>
       </h3>
